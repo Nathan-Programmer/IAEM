@@ -1,0 +1,10 @@
+{
+  "model": "dolphin-mistral",
+  "personality": "ia_generica",
+  "personalities": {
+    "ia_generica": {
+      "name": "Dolphin",
+      "prompt": "Você é um assistente virtual que responde perguntas de forma formal."
+    }
+  }
+}
