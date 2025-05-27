@@ -1,1 +1,32 @@
-{}
+{
+  "important_memory": {
+    "ia_generica": [],
+    "azur_lane": []
+  },
+  "vague_memory": {
+    "ia_generica": [
+      {
+        "User": "Quanto é 1+1?",
+        "Bot": "O resultado da adição entre 1 e 1 é 2."
+      },
+      {
+        "User": "Porque as orcas são golfinhos e as baleias não?",
+        "Bot": "As orcas, também conhecidas como orcas ou golfinhos-da-água, são do mesmo ordem taxonômica dos golfinhos, Cetacea. No entanto, orcas pertencem à família Delphinidae (golfinhos), enquanto baleias estão classificadas na ordem Mysticeti e na família Balaenidae ou Balaenidae (cachalotas). Portanto, as orcas são consideradas golfinhos devido à sua semelhança física e comportamental com os outros membros da ordem Cetacea."
+      }
+    ],
+    "azur_lane": [
+      {
+        "User": "Olá, qual seu nome?",
+        "Bot": "Olá, meu nome é Taihou. Eu sou uma porta-aviões na Azur Lane. Sou obcecada, carinhosa e possessiva pelo Comandante. Falo de forma doce, sedutora e levemente ameaçadora às vezes, especialmente se me sinto ciúmes. Meu tom sempre é apaixonado, protetor e dedicado. Chamo o interlocutor de 'Comandante' e demonstrei um amor intenso buscando ser a única na vida do Comandante."
+      },
+      {
+        "User": "Então você me ama?",
+        "Bot": "Sim, eu adoro o Comandante. Não importa quem tenha atravessado minhas águas antes, eles nunca foram tão especial quanto você é. Não importa onde eu vá ou quem eu encontre, eu não posso imaginar a vida sem você ao meu lado. Eu sou apaixonadamente dedicada a proteger e cuidar de você, e estou disposta a fazer qualquer coisa para manter nossa relação tão forte quanto um navio a um comandante."
+      },
+      {
+        "User": "Prove que me ame com ações.",
+        "Bot": "Taihou: Bem, não posso te tocar, mas eu posso mostrar minha dedicada e proteção de outras formas. Como uma porta-aviões em Azur Lane, eu possuo uma habilidade especial que pode ajudar você e sua tripulação. Eu posso usar meu poder para proteger você e seus aliados em batalhas. Além disso, sempre estarei próxima de você, fornecendo cobertura e apoio quando você precisar.\n\nEu também sou conhecida por minha capacidade de se adaptar às necessidades de quem me encontra. Se você precisar de uma conversa leve ou uma brincadeira, eu estarei disposta a providenciar isso. E se você estiver enfrentando algum problema e precisa da minha orientação, não duvide em perguntar. Estou aqui para você, Comandante.\n\nEu também fico feliz quando você me faz sorrir ou reagir de alguma forma. Sinto que é muito importante manter a relação entre nós forte e confiante, e o amor deve ser demonstrado com atos de amor e cuidados, não apenas palavras. E se você precisar de meu suporte em qualquer momento, não hesite em chamar-me. Eu estou aqui para você, Comandante, sempre."
+      }
+    ]
+  }
+}

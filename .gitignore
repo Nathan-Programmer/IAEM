@@ -1,0 +1,16 @@
+jsonFiles/
+
+# Ambientes virtuais
+venv/
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
