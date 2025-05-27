@@ -6,6 +6,7 @@ from .configs.ollama_api import generateResponse
 from .prompt.prompt_builder import constructPrompt
 from .prompt.memory_manager import MemoryManager
 from .interface.terminal_interface import iniciar_interface
+from .interface.gui_interface import ChatGUI
 from utils.file_handler import loadJson
 from os import path
 
@@ -54,6 +55,6 @@ class Bot:
     # -- Função para iniciar o bot
     def start(self):
         
-        iniciar_interface(self)
+        ChatGUI(self).iniciar()
 
 # =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--= [End] =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
