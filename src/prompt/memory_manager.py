@@ -46,6 +46,23 @@ class MemoryManager:
     def saveMemory(self):
         saveJson(self.path, self.data)
 
+    def promoteVagueToImportant(self, criterio_func):
+        vagas = self.data["vague_memory"][self.personality]
+        importantes = self.data["important_memory"][self.personality]
+        
+        novas_vagas = []
+        
+        for entry in vagas:
+            if criterio_func(entry):
+                importantes.append(entry)
+            else:
+                novas_vagas.append(entry)
+        
+        self.data["vague_memory"][self.personality] = novas_vagas
+        self.data["important_memory"][self.personality] = importantes
+        
+        self.saveMemory()
+
     # -- Deleta a memória que não é importante
     def clearVagueMemory(self):
         self.data["vague_memory"][self.personality] = []

@@ -1,6 +1,6 @@
 {
   "model": "dolphin-mistral",
-  "personality": "azur_lane",
+  "personality": "ia_generica",
   "personalities": {
     "azur_lane": {
       "name": "Taihou",

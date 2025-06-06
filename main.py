@@ -6,7 +6,14 @@ from src.bot import Bot
 # -- Interação com o sistema
 if __name__ == "__main__":
 
+    bot = Bot()
+
     # - Iniciando o bot
-    Bot().start()
+    try:
+
+        bot.start()
+    finally:
+        
+        bot.shutdown()
 
 # =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--= [End] =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
